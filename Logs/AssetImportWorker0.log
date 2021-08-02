@@ -835,3 +835,45 @@ System memory in use after: 58.3 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
 Total: 2.372700 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.050700 ms MarkObjects: 2.047400 ms  DeleteObjects: 0.070300 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.714700 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.386700 ms  DeleteObjects: 0.076100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32893.867565 seconds.
+  path: Assets/Nick'sStuff/Scripts/Detection.cs
+  artifactKey: Guid(07057ea8ba48cc2428f4c0d11ed572f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nick'sStuff/Scripts/Detection.cs using Guid(07057ea8ba48cc2428f4c0d11ed572f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40918f5b20eea996bc5d4b81f39c9f10') in 0.009944 seconds
+  Import took 0.011616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Nick'sStuff/Scripts
+  artifactKey: Guid(634c9129bbf33634e88ae8ae1abb3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nick'sStuff/Scripts using Guid(634c9129bbf33634e88ae8ae1abb3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f119b8918669b8795bfeba8a967388') in 0.006508 seconds
+  Import took 0.042054 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

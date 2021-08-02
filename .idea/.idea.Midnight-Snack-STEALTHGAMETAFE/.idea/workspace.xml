@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="" />
+    <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,16 +19,20 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/TerrainGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GenerateInfinite.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scipts/TerrainGeneration.cs" />
       <option value="$PROJECT_DIR$/Assets/Scipts/InfiniteGeneration.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scipts/TerrainGeneration.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vvH7doDRNZBgLiQohUTQOGiW6W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -68,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627435478748</updated>
-      <workItem from="1627435486928" duration="5502000" />
+      <workItem from="1627435486928" duration="6375000" />
     </task>
     <servers />
   </component>
@@ -89,6 +95,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
