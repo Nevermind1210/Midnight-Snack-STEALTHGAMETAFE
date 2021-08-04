@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +17,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scipts/TerrainGeneration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -21,6 +35,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GenerateInfinite.cs" />
       <option value="$PROJECT_DIR$/Assets/Scipts/InfiniteGeneration.cs" />
       <option value="$PROJECT_DIR$/Assets/Scipts/TerrainGeneration.cs" />
+      <option value="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherVision.cs" />
+      <option value="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vvH7doDRNZBgLiQohUTQOGiW6W" />
@@ -75,6 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627435478748</updated>
       <workItem from="1627435486928" duration="6375000" />
+      <workItem from="1628042595219" duration="26000" />
+      <workItem from="1628042646924" duration="1840000" />
     </task>
     <servers />
   </component>
@@ -93,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
