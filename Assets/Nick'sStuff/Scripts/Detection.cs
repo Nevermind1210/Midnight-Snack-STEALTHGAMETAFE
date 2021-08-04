@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-// this script deals with player detection
+
 public class Detection : MonoBehaviour
 {
-    public Audio audioScript;
+    [Header("References")]
+    public Audio audioManager;
+    [Header("General")]
+    public bool started;
     [Header("Detection")]
-    [SerializeField] private Slider detectionBar;
-    [SerializeField] private float detection;
+    [SerializeField] private Slider detectionBar;     
+    [SerializeField] private float detection;         
     [SerializeField] private float minDetection;
     [SerializeField] private float maxDetection;
 
@@ -22,20 +25,23 @@ public class Detection : MonoBehaviour
 
     private void Update()
     {
-
+        // if game has started
+        if (started)
+        {
+            Detect(); 
+        }
     }
 
     private void Detect()
     {
-        // check if any audio is playing
-        if (audioScript.master.isPlaying)
+        // if any sound effects are playing
+        if (audioManager.sfx.isPlaying)
         {
-            // if audioScript.master.clip equals sound effect
-            // detection = detection += time.DeltaTime
-        }
-        else
-        {
-            print("no audio is playing currently!");
+            // increase detection over time
+            detection += Time.deltaTime;
+
+            // update detection bar
+            detectionBar.value = detection;
         }
     }
 

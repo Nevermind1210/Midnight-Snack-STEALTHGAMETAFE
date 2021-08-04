@@ -5,6 +5,8 @@ using UnityEngine.Audio;
 
 public class Audio : MonoBehaviour
 {
-    public AudioSource master;
-    // sound effects here e.g. public AudioClip doorCreak
+    [Header("Audio Source")]
+    public AudioSource sfx;      // the master audio source for sound effects
+    [Header("Audio Clips")]
+    public AudioClip doorCreak;     
 }
