@@ -5,12 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
+    [SerializeField] private Transform pointer;
     [SerializeField] private float speed;
 
     private void Update()
     {
         Movement();
         Rotation();
+        Interact();
     }
 
     private void Movement()
@@ -38,6 +40,26 @@ public class PlayerController : MonoBehaviour
         {
             // the player rotates towards that position
             transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
+        }
+    }
+
+    private void Interact()
+    {
+        // if 'E' button is pressed
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            // used to store information on what raycast hits
+            RaycastHit hit;
+
+            // if the raycast is shot 5 units from the pointer position
+            if (Physics.Raycast(pointer.position, Vector3.forward, out hit, 5))
+            {
+                // if the raycast hits a collider tagged 'Fridge'
+                if (hit.collider.CompareTag("Fridge"))
+                {
+                    // obtain food
+                }              
+            }
         }
     }
 }
