@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/Waypoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/Waypoints.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +29,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/402C5525-0172-4D7D-9F3D-AA20B9D40A96/b0/bcedc19f/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -100,12 +100,14 @@
       <workItem from="1628042646924" duration="1840000" />
       <workItem from="1628644564660" duration="4776000" />
       <workItem from="1628649541979" duration="25000" />
+      <workItem from="1629249530424" duration="3962000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
