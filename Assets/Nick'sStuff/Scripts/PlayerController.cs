@@ -1,31 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
     [SerializeField] private Transform pointer;
     [SerializeField] private float speed;
+    [SerializeField] private float reach;
+    private Rigidbody rb;
+    private Vector2 mousePosition;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
+        Interact();
+    }
+
+    void FixedUpdate()
+    {
         Movement();
         Rotation();
-        Interact();
     }
 
     private void Movement()
     {
-        // gets the horizontal and vertical axes (for WASD movement)
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        // puts these axes into a Vector3
-        Vector3 movement = new Vector3(horizontal, 0, vertical);
-
-        // depending on which key is pressed the player moves in that direction
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        rb.velocity = new Vector3(horizontal * speed, rb.velocity.y, vertical * speed);
     }
 
     private void Rotation()
@@ -38,27 +41,40 @@ public class PlayerController : MonoBehaviour
         // if the raycast hits something (which it always should)
         if (Physics.Raycast(ray, out hit))
         {
-            // the player rotates towards that position
-            transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
+            if (hit.collider.CompareTag("Player"))
+            {
+                // this stops some jittering
+            }
+            else
+            {
+                // the player rotates towards that position
+                transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
+            }
         }
     }
 
     private void Interact()
     {
         // if 'E' button is pressed
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonDown(0))
         {
             // used to store information on what raycast hits
             RaycastHit hit;
 
-            // if the raycast is shot 5 units from the pointer position
-            if (Physics.Raycast(pointer.position, Vector3.forward, out hit, 5))
+            // if the raycast is shot 5 units from the player position
+            if (Physics.Raycast(pointer.position, pointer.transform.forward, out hit, reach))
             {
                 // if the raycast hits a collider tagged 'Fridge'
                 if (hit.collider.CompareTag("Fridge"))
                 {
-                    // obtain food
-                }              
+                    // get food from the fridge
+                    print("you are interacting with the fridge!");
+                }
+                else if (hit.collider.CompareTag("Door"))
+                {
+                    // open the door
+                    print("you are interacting with the door!");
+                }
             }
         }
     }

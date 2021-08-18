@@ -52,7 +52,7 @@ namespace MotherIntelligence
                 
                 Gizmos.DrawLine(transform.position, agent.destination);
                 
-                Gizmos.color 
+                //Gizmos.color 
             }
         }
     }
