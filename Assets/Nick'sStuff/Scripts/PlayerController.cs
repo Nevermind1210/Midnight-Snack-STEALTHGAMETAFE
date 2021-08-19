@@ -1,65 +1,84 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
-    [SerializeField] private Transform pointer;
-    [SerializeField] private float speed;
+    [SerializeField] private Audio audioScript;
+    [SerializeField] private NavMeshAgent player;       // the player agent
+    [SerializeField] private Transform pointer;         // interaction raycast is shot from this
+    [SerializeField] private float reach;               // how far player can reach to interact
+    [SerializeField] private bool hasFood;              // whether player has already gotten food from fridge
 
     private void Update()
     {
         Movement();
-        Rotation();
         Interact();
     }
 
     private void Movement()
     {
-        // gets the horizontal and vertical axes (for WASD movement)
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        // puts these axes into a Vector3
-        Vector3 movement = new Vector3(horizontal, 0, vertical);
-
-        // depending on which key is pressed the player moves in that direction
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
-    }
-
-    private void Rotation()
-    {
-        // used to store information on what raycast hits
-        RaycastHit hit;
-        // raycast is shot from mouse position
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        // if the raycast hits something (which it always should)
-        if (Physics.Raycast(ray, out hit))
+        // if the left mouse button is held down
+        if (Input.GetMouseButton(0))
         {
-            // the player rotates towards that position
-            transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
+            // ray is shot from mouse position
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            // used to store information on what raycast hit
+            RaycastHit hit;
+
+            // raycast is shot our from click position
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                // creates a path that can be calculated
+                NavMeshPath path = new NavMeshPath();
+                // calculates the path of the most recent click
+                player.CalculatePath(hit.point, path);
+                // if path is blocked
+                if (path.status == NavMeshPathStatus.PathPartial)
+                {
+                    // player doesn't move if they can't reach the destination
+                }
+                // else if the path is clear
+                else
+                {
+                    // player moves towards the hit position
+                    player.SetDestination(hit.point);
+                }             
+            }
         }
     }
 
     private void Interact()
     {
         // if 'E' button is pressed
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             // used to store information on what raycast hits
             RaycastHit hit;
 
-            // if the raycast is shot 5 units from the pointer position
-            if (Physics.Raycast(pointer.position, Vector3.forward, out hit, 5))
+            // if the raycast is shot 5 units from the player position
+            if (Physics.Raycast(pointer.position, pointer.transform.forward, out hit, reach))
             {
-                // if the raycast hits a collider tagged 'Fridge'
-                if (hit.collider.CompareTag("Fridge"))
+                if (!hasFood)
                 {
-                    // obtain food
-                }              
+                    // if the raycast hits a collider tagged 'Fridge'
+                    if (hit.collider.name == "Fridge")
+                    {
+                        // get food from the fridge
+                        print("you are interacting with the fridge!");
+                        FridgeSound();
+                        hasFood = true;
+                    } 
+                }
+                else
+                {
+                    print("You already have food you greedy little kid!");
+                }
             }
         }
+    }
+
+    private void FridgeSound()
+    {
+        audioScript.sfx.PlayOneShot(audioScript.fridgeSound);
     }
 }

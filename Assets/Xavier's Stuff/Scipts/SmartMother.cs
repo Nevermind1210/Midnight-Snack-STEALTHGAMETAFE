@@ -21,15 +21,15 @@ namespace MotherIntelligence
         private void Start()
         {
             agent = gameObject.GetComponent<NavMeshAgent>();
-            
+
             stateBehaviours.Start(agent);
         }
 
         private void Update()
         {
             stateBehaviours.Update();
-            
-            
+
+
         }
 
         public void MainPath()
@@ -53,7 +53,7 @@ namespace MotherIntelligence
                 }
             }
         }
-        
+
         public void SwitchStates()
         {
             if (stateBehaviours.currentStates == States.SearchingChild)
@@ -71,9 +71,9 @@ namespace MotherIntelligence
             {
                 Gizmos.color = Color.green;
                 Gizmos.DrawWireSphere(agent.destination, 1f);
-                
+
                 Gizmos.DrawLine(transform.position, agent.destination);
-                
+
                 Gizmos.color = Color.blue;
                 Gizmos.DrawWireSphere(agent.steeringTarget, 1f);
             }
