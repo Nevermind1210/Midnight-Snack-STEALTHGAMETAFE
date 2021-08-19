@@ -32,6 +32,28 @@ namespace MotherIntelligence
             
         }
 
+        public void MainPath()
+        {
+            if (stateBehaviours.currentStates == States.SearchingChild)
+            {
+                {
+                    stateBehaviours.ChangeState(States.SearchingChild);
+                }
+                // If path is blocked
+                if (agent.hasPath && agent.path.status == NavMeshPathStatus.PathPartial &&
+                    agent.remainingDistance <= 10)
+                {
+                    stateBehaviours.ChangeState(States.HeardSound);
+                }
+                // if path is unreachable....
+                if (agent.hasPath && agent.path.status == NavMeshPathStatus.PathInvalid &&
+                    agent.remainingDistance <= 10)
+                {
+                    stateBehaviours.ChangeState(States.SearchingChild);
+                }
+            }
+        }
+        
         public void SwitchStates()
         {
             if (stateBehaviours.currentStates == States.SearchingChild)
@@ -52,7 +74,8 @@ namespace MotherIntelligence
                 
                 Gizmos.DrawLine(transform.position, agent.destination);
                 
-                Gizmos.color 
+                Gizmos.color = Color.blue;
+                Gizmos.DrawWireSphere(agent.steeringTarget, 1f);
             }
         }
     }

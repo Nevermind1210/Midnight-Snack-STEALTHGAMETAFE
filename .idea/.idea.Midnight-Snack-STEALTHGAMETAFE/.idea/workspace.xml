@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MontherPathing.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MontherPathing.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +33,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/402C5525-0172-4D7D-9F3D-AA20B9D40A96/b0/bcedc19f/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Nick'sStuff/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherVision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Nick'sStuff/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -100,7 +107,8 @@
       <workItem from="1628042646924" duration="1840000" />
       <workItem from="1628644564660" duration="4776000" />
       <workItem from="1628649541979" duration="25000" />
-      <workItem from="1629249530424" duration="3962000" />
+      <workItem from="1629249530424" duration="5886000" />
+      <workItem from="1629282614520" duration="2565000" />
     </task>
     <servers />
   </component>

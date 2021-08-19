@@ -15,11 +15,11 @@ F:/Unity Projects/Midnight-Snack-STEALTHGAMETAFE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57026
+54244
 Successfully changed project path to: F:/Unity Projects/Midnight-Snack-STEALTHGAMETAFE
 F:/Unity Projects/Midnight-Snack-STEALTHGAMETAFE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,247 +35,60 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002076 seconds.
+Registered in 0.001950 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.475 seconds
+- Completed reload, in  2.311 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000921 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1491 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.2 MB.
-System memory in use after: 74.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1928.
-Total: 2.397600 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.103100 ms MarkObjects: 1.882900 ms  DeleteObjects: 0.159500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity
-  artifactKey: Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity using Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ab269108263a718120a82ca833f4cf') in 0.031697 seconds
-  Import took 0.066068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.501503 seconds.
-  path: Assets/Xavier's Stuff/Scipts/MotherState.cs
-  artifactKey: Guid(89dcf71b1386f124c9178eebf2ebdc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Xavier's Stuff/Scipts/MotherState.cs using Guid(89dcf71b1386f124c9178eebf2ebdc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2882a1961ff6530f0001c330c569a79') in 0.163740 seconds
-  Import took 0.189943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.205732 seconds.
-  path: Assets/Nick'sStuff/Prefabs/UI.prefab
-  artifactKey: Guid(b1908be4329e0884795b1b90b5aaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick'sStuff/Prefabs/UI.prefab using Guid(b1908be4329e0884795b1b90b5aaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff32546e68f75b839a6444e1402c1852') in 0.248108 seconds
-  Import took 0.263981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.151131 seconds.
-  path: Assets/Nick'sStuff/Models/CubeGuy.fbx
-  artifactKey: Guid(3c2ecc244e7c0364ebf3c8f42d59b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick'sStuff/Models/CubeGuy.fbx using Guid(3c2ecc244e7c0364ebf3c8f42d59b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b86604716b2d103c1a40397292b21e3') in 0.264919 seconds
-  Import took 0.283920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.853701 seconds.
-  path: Assets/Nick'sStuff/Scenes/Nick'sScene.unity
-  artifactKey: Guid(fca4ee8c2ebe2b7478edc5b22938d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick'sStuff/Scenes/Nick'sScene.unity using Guid(fca4ee8c2ebe2b7478edc5b22938d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7b2866ab4491650145edd57cb82683') in 0.130576 seconds
-  Import took 0.133627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.337137 seconds.
-  path: Assets/Nick'sStuff/Scenes/Menu.unity
-  artifactKey: Guid(8c33178a3219aa347b438c950f029cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nick'sStuff/Scenes/Menu.unity using Guid(8c33178a3219aa347b438c950f029cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476bc14d7704ad63c8eb62a4c4d8d37f') in 0.128036 seconds
-  Import took 0.171457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.850267 seconds.
-  path: Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity
-  artifactKey: Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity using Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c922f11e17c174a5f5d9fc0225a3f94a') in 0.029059 seconds
-  Import took 0.117695 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001335 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.2 MB.
-System memory in use after: 75.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 3.403500 ms (FindLiveObjects: 0.356800 ms CreateObjectMapping: 0.103700 ms MarkObjects: 2.798100 ms  DeleteObjects: 0.142200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.300826 seconds.
-  path: Assets/Xavier's Stuff/Debugging Scenes
-  artifactKey: Guid(e33065084f5a4b94394dcfd73f8acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Xavier's Stuff/Debugging Scenes using Guid(e33065084f5a4b94394dcfd73f8acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffab376784ef6abda69a5dfd2c2e0c4b') in 0.529201 seconds
-  Import took 0.531542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.192864 seconds.
-  path: Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity
-  artifactKey: Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity using Guid(d55576ea6be5242468e9ee2cf6de8e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770fdd2fc6904461dfbf1f8849f84ea6') in 0.056880 seconds
-  Import took 0.087363 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
+Registered in 0.000754 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  0.922 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.4 MB.
-System memory in use after: 75.4 MB.
+Unloading 1492 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 3.574800 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.108800 ms MarkObjects: 3.053000 ms  DeleteObjects: 0.098400 ms)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 2.201000 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.738800 ms  DeleteObjects: 0.221200 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000781 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 2.387600 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.916200 ms  DeleteObjects: 0.089300 ms)
+Received Import Request.
+  path: Assets/Xavier's Stuff/Debugging Scenes
+  artifactKey: Guid(e33065084f5a4b94394dcfd73f8acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Debugging Scenes using Guid(e33065084f5a4b94394dcfd73f8acc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffab376784ef6abda69a5dfd2c2e0c4b') in 0.063828 seconds
+  Import took 0.066936 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000808 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 11.060125 seconds.
+  path: Assets/Xavier's Stuff/Debugging Scenes/MontherPathing.unity
+  artifactKey: Guid(a684ac0b47a0c2245aa84fafed8784f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Debugging Scenes/MontherPathing.unity using Guid(a684ac0b47a0c2245aa84fafed8784f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e5bfe3b1e7cd727bf53ed2de7c049e') in 0.035594 seconds
+  Import took 0.038309 seconds .
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1980.
-Total: 3.373900 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.141000 ms MarkObjects: 2.748800 ms  DeleteObjects: 0.148600 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
