@@ -3,9 +3,11 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private Audio audioScript;
     [SerializeField] private NavMeshAgent player;       // the player agent
     [SerializeField] private Transform pointer;         // interaction raycast is shot from this
     [SerializeField] private float reach;               // how far player can reach to interact
+    [SerializeField] private bool hasFood;              // whether player has already gotten food from fridge
 
     private void Update()
     {
@@ -56,18 +58,27 @@ public class PlayerController : MonoBehaviour
             // if the raycast is shot 5 units from the player position
             if (Physics.Raycast(pointer.position, pointer.transform.forward, out hit, reach))
             {
-                // if the raycast hits a collider tagged 'Fridge'
-                if (hit.collider.name == "Fridge")
+                if (!hasFood)
                 {
-                    // get food from the fridge
-                    print("you are interacting with the fridge!");
+                    // if the raycast hits a collider tagged 'Fridge'
+                    if (hit.collider.name == "Fridge")
+                    {
+                        // get food from the fridge
+                        print("you are interacting with the fridge!");
+                        FridgeSound();
+                        hasFood = true;
+                    } 
                 }
-                else if (hit.collider.name == "Door")
+                else
                 {
-                    // open the door
-                    print("you are interacting with the door!");
+                    print("You already have food you greedy little kid!");
                 }
             }
         }
+    }
+
+    private void FridgeSound()
+    {
+        audioScript.sfx.PlayOneShot(audioScript.fridgeSound);
     }
 }

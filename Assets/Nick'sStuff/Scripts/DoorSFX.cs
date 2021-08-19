@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class DoorSFX : MonoBehaviour
 {
-    public Audio audioManager;
+    [SerializeField] private Audio audioScript;
+    [SerializeField] private bool played;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        // an AudioClip is played once
-        audioManager.sfx.PlayOneShot(audioManager.doorCreak);
-        print("a sound effect was played!");
+        if (collider.CompareTag("Player") || collider.CompareTag("Mother"))
+        {
+            if (played == false)
+            {
+                audioScript.sfx.PlayOneShot(audioScript.doorSound);
+                played = true;
+            } 
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        played = false;
     }
 }
