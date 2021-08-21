@@ -10,7 +10,8 @@ public class Detection : MonoBehaviour
     [Header("General")]
     public bool started;
     [Header("Detection")]
-    [SerializeField] private Slider detectionBar;     
+    [SerializeField] private Image detectionBar;
+    [SerializeField] private Image backgroundBar;
     [SerializeField] private float detection;         
     [SerializeField] private float minDetection;
     [SerializeField] private float maxDetection;
@@ -18,9 +19,8 @@ public class Detection : MonoBehaviour
     private void Start()
     {
         // detection bar setup
-        detectionBar.minValue = minDetection;
-        detectionBar.maxValue = maxDetection;
-        detectionBar.value = detection;
+        detectionBar.fillAmount = minDetection;
+        backgroundBar.fillAmount = maxDetection;
     }
 
     private void Update()
@@ -37,11 +37,19 @@ public class Detection : MonoBehaviour
         // if any sound effects are playing
         if (audioManager.sfx.isPlaying)
         {
-            // increase detection over time
-            detection += Time.deltaTime;
+            if (detection >= maxDetection)
+            {
+                // detection stops at maximum detection and mother knows exactly where you are now
+                detectionBar.color = Color.red;
+            }
+            else
+            {
+                // increase detection over time
+                detection += Time.deltaTime * 5;
 
-            // update detection bar
-            detectionBar.value = detection;
+                // update detection bar
+                detectionBar.fillAmount = detection / 100; 
+            }
         }
     }
 
