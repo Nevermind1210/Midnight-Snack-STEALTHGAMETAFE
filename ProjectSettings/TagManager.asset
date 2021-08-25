@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Mother
   - Obstruction
+  - Fridge
   layers:
   - Default
   - TransparentFX

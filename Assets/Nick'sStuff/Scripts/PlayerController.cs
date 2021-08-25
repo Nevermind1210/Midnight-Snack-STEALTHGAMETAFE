@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool hasFood;              // whether player has already gotten food from fridge
     [Header("Animation")]
     [SerializeField] private Animator playerAnimation;  // the player's animation controller 
+    [SerializeField] private Animator fridgeAnimation;  // the fridge's animation controller
 
     private void Update()
     {
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
     private void Interact()
     {
-        // if 'E' button is pressed
+        // if space button is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // used to store information on what raycast hits
@@ -68,10 +69,11 @@ public class PlayerController : MonoBehaviour
                 if (!hasFood)
                 {
                     // if the raycast hits a collider tagged 'Fridge'
-                    if (hit.collider.name == "Fridge")
+                    if (hit.collider.CompareTag("Fridge"))
                     {
                         // get food from the fridge
                         playerAnimation.Play("Grab");
+                        fridgeAnimation.Play("Open");
                         FridgeSound();
                         hasFood = true;
                     } 
