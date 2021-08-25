@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 1387946383568591321}
   - component: {fileID: 758537405479852547}
   - component: {fileID: 9140694532344289740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pCube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2792621361451463817}
   - component: {fileID: 3281632063354777140}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -727,8 +727,11 @@ MonoBehaviour:
   audioScript: {fileID: 0}
   player: {fileID: 0}
   pointer: {fileID: 0}
+  stoppingDistance: 0
   reach: 0
   hasFood: 0
+  playerAnimation: {fileID: 0}
+  fridgeAnimation: {fileID: 0}
 --- !u!4 &3487472315381223357
 Transform:
   m_ObjectHideFlags: 0
@@ -870,7 +873,7 @@ GameObject:
   - component: {fileID: 8697889640313695731}
   - component: {fileID: 8118978116048818241}
   - component: {fileID: 1863965812624993416}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pCube2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

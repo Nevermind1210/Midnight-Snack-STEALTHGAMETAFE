@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78689829-d62f-4448-b8e0-f87926c14938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherChase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherChase.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midnight-Snack-STEALTHGAMETAFE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Nick'sStuff/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nick'sStuff/Animation/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene/NavMesh-Kitchen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene/NavMesh-Kitchen.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene/NavMesh-Kitchen.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene/NavMesh-Kitchen.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/NicksSceneMother.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/NicksSceneMother.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/MotherWandering.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Scipts/SmartMother.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nick'sStuff/Scenes/Nick'sScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Xavier's Stuff/Debugging Scenes/MotherVision.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -115,7 +111,7 @@
       <workItem from="1629249530424" duration="5886000" />
       <workItem from="1629282614520" duration="2565000" />
       <workItem from="1629444344964" duration="3134000" />
-      <workItem from="1629889880088" duration="2236000" />
+      <workItem from="1629889880088" duration="4413000" />
     </task>
     <servers />
   </component>
