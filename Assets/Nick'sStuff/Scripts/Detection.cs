@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,8 +5,6 @@ public class Detection : MonoBehaviour
 {
     [Header("References")]
     public Audio audioManager;
-    [Header("General")]
-    public bool started;
     [Header("Detection")]
     [SerializeField] private Image detectionBar;
     [SerializeField] private Image backgroundBar;
@@ -25,11 +21,7 @@ public class Detection : MonoBehaviour
 
     private void Update()
     {
-        // if game has started
-        if (started)
-        {
-            Detect(); 
-        }
+        Detect(); 
     }
 
     private void Detect()

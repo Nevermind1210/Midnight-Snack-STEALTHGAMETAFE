@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float stoppingDistance;    // how far from point of click the player can stop
     [Header("Interaction")]
     [SerializeField] private float reach;               // how far player can reach to interact
-    [SerializeField] private bool hasFood;              // whether player has already gotten food from fridge
+    public bool hasFood;                                // whether player has already gotten food from fridge
     [Header("Animation")]
     [SerializeField] private Animator playerAnimation;  // the player's animation controller 
     [SerializeField] private Animator fridgeAnimation;  // the fridge's animation controller

@@ -7,7 +7,7 @@ public class DoorSFX : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.CompareTag("Player") || collider.CompareTag("Mother"))
+        if (collider.CompareTag("Player"))
         {
             if (played == false)
             {
