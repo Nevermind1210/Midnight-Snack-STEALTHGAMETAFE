@@ -10,8 +10,8 @@ namespace MotherIntelligence
     [RequireComponent(typeof(NavMeshAgent))]
     public class SmartMother : MonoBehaviour
     {
-        public AudioMixer masterMixer;
-        public AudioSource winMusic;
+        //public AudioMixer masterMixer;
+        //public AudioSource winMusic;
 
         public MotherState stateBehaviours;
 
@@ -28,8 +28,9 @@ namespace MotherIntelligence
         private void Update()
         {
             stateBehaviours.Update();
-
-
+            
+            MainPath();
+            SwitchStates();
         }
 
         public void MainPath()

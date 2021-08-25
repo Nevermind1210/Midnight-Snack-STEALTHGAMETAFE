@@ -36,11 +36,11 @@ public class MotherWandering : MonoBehaviour
                 timer = 0;
             }
 
-            //_anim.SetTrigger("");
+            _anim.SetTrigger("Walking");
         }
         else if (target == null)
         {
-            //anim.SetTrigger("");
+            _anim.SetTrigger("Idle");
         }
     }
     
