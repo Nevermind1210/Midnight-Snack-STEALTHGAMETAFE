@@ -3,16 +3,23 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Audio audioScript;
+    [Header("Movement")]
     [SerializeField] private NavMeshAgent player;       // the player agent
     [SerializeField] private Transform pointer;         // interaction raycast is shot from this
+    [SerializeField] private float stoppingDistance;    // how far from point of click the player can stop
+    [Header("Interaction")]
     [SerializeField] private float reach;               // how far player can reach to interact
     [SerializeField] private bool hasFood;              // whether player has already gotten food from fridge
+    [Header("Animation")]
+    [SerializeField] private Animator playerAnimation;  // the player's animation controller 
 
     private void Update()
     {
         Movement();
         Interact();
+        PlayerAnimation();
     }
 
     private void Movement()
@@ -35,16 +42,16 @@ public class PlayerController : MonoBehaviour
                 // if path is blocked
                 if (path.status == NavMeshPathStatus.PathPartial)
                 {
-                    // player doesn't move if they can't reach the destination
+
                 }
                 // else if the path is clear
                 else
                 {
                     // player moves towards the hit position
-                    player.SetDestination(hit.point);
+                    player.SetDestination(hit.point);              
                 }             
             }
-        }
+        }      
     }
 
     private void Interact()
@@ -64,7 +71,7 @@ public class PlayerController : MonoBehaviour
                     if (hit.collider.name == "Fridge")
                     {
                         // get food from the fridge
-                        print("you are interacting with the fridge!");
+                        playerAnimation.Play("Grab");
                         FridgeSound();
                         hasFood = true;
                     } 
@@ -80,5 +87,17 @@ public class PlayerController : MonoBehaviour
     private void FridgeSound()
     {
         audioScript.sfx.PlayOneShot(audioScript.fridgeSound);
+    }
+
+    private void PlayerAnimation()
+    {
+        if (player.remainingDistance > player.stoppingDistance)
+        {
+            playerAnimation.Play("Walking");
+        }
+        else
+        {
+            playerAnimation.Play("Idle");
+        }
     }
 }
