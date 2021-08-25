@@ -15,11 +15,11 @@ D:/Users/User/Documents/GitHub/Midnight-Snack-STEALTHGAMETAFE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55467
+51816
 Successfully changed project path to: D:/Users/User/Documents/GitHub/Midnight-Snack-STEALTHGAMETAFE
 D:/Users/User/Documents/GitHub/Midnight-Snack-STEALTHGAMETAFE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,153 +35,654 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002172 seconds.
+Registered in 0.002525 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
+- Completed reload, in  1.437 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000740 seconds.
+Registered in 0.000964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.102 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.6 MB.
-System memory in use after: 56.6 MB.
+System memory in use before: 56.7 MB.
+System memory in use after: 56.7 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1541.
-Total: 2.224000 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.954000 ms  DeleteObjects: 0.069300 ms)
+Total: 2.295800 ms (FindLiveObjects: 0.144300 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.037600 ms  DeleteObjects: 0.071200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Fridge.fbx
-  artifactKey: Guid(52fdd5472f6ce0e469a34a0396f9ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fridge.fbx using Guid(52fdd5472f6ce0e469a34a0396f9ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45621849eb1f76a0897c9c6810d54c16') in 0.572118 seconds
-  Import took 0.596131 seconds .
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0da9e3bb83867ded630acc01353b21') in 0.012079 seconds
+  Import took 0.034383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.470018 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.fbx
-  artifactKey: Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.fbx using Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faea19aa2956d8460fc3c11d1b0949d') in 0.143741 seconds
-  Import took 0.156745 seconds .
+  Time since last request: 84573.241376 seconds.
+  path: Assets/Art/PCAnimations
+  artifactKey: Guid(ad1e89ca8278f7f4ab6ced9f1afa0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations using Guid(ad1e89ca8278f7f4ab6ced9f1afa0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea339547c29a5d9410a5dcde5f21874a') in 0.231355 seconds
+  Import took 0.871233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.447261 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.fbx
-  artifactKey: Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.fbx using Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547367dd6d0662ad4b6ce624e000cc52') in 0.094137 seconds
-  Import took 0.098101 seconds .
+  Time since last request: 3.522492 seconds.
+  path: Assets/Art/PCAnimations/cybeguywalk.fbx
+  artifactKey: Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/cybeguywalk.fbx using Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bbc5148a52e49cf281a5ab40046bd3') in 3.377597 seconds
+  Import took 3.407076 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Art/PlayerCharacter/Illustration95 (1).png
-  artifactKey: Guid(afeb707b6365e824398820dd31cbb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/Illustration95 (1).png using Guid(afeb707b6365e824398820dd31cbb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0740a3d49d4feca3d07b9f0bd5bd951') in 0.037016 seconds
-  Import took 0.046895 seconds .
+  Time since last request: 0.005766 seconds.
+  path: Assets/Art/PCAnimations/cybeguywalk.fbx
+  artifactKey: Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/cybeguywalk.fbx using Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bbc5148a52e49cf281a5ab40046bd3') in 0.105705 seconds
+  Import took 0.132856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.674747 seconds.
-  path: Assets/Art/PlayerCharacter/FaceTex.png
-  artifactKey: Guid(afeb707b6365e824398820dd31cbb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/FaceTex.png using Guid(afeb707b6365e824398820dd31cbb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b789b934235a22caba970dfdf06a598') in 0.011825 seconds
-  Import took 0.029693 seconds .
+  Time since last request: 256.929047 seconds.
+  path: Assets/Art/PCAnimations/cybeguywalk.fbx
+  artifactKey: Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/cybeguywalk.fbx using Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6a299ace9a994cf30154c7b3a3b94e') in 0.098587 seconds
+  Import took 0.133909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.557848 seconds.
-  path: Assets/Art/PlayerCharacter/FACE.mat
-  artifactKey: Guid(1d265a4074458134f90a44d8e06b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/FACE.mat using Guid(1d265a4074458134f90a44d8e06b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec751e84ebca77a2be2ec3ca6f6b549') in 0.017094 seconds
-  Import took 0.031698 seconds .
+  Time since last request: 10.117908 seconds.
+  path: Assets/Art/PCAnimations/New Animator Controller.controller
+  artifactKey: Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/New Animator Controller.controller using Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577ce8fe069dc8c154af9bd7e3830c71') in 0.048371 seconds
+  Import took 0.076889 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 152.933700 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.prefab
-  artifactKey: Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.prefab using Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218673eea2b58bb3b1dd87c9aa0bc820') in 0.058339 seconds
-  Import took 0.061576 seconds .
+  Time since last request: 6.070541 seconds.
+  path: Assets/Art/PCAnimations/CharacterAC.controller
+  artifactKey: Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/CharacterAC.controller using Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56dab52cb63a069c4db55b36fb2a0a6') in 0.029135 seconds
+  Import took 0.032116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.451773 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab
-  artifactKey: Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab using Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0b917f9783aa51de218d8681a098fe') in 0.018296 seconds
-  Import took 0.023520 seconds .
+  Time since last request: 3.151433 seconds.
+  path: Assets/Art/PCAnimations/cybeguywalk.controller
+  artifactKey: Guid(9283c144f300d02439b180083c754a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/cybeguywalk.controller using Guid(9283c144f300d02439b180083c754a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7df4c3d2b245e9e7b2811eccd0c62') in 0.018306 seconds
+  Import took 0.034245 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.331159 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab
-  artifactKey: Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab using Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b97ff24241689d3bf51dbdfe0cf084') in 0.003788 seconds
-  Import took 0.007620 seconds .
+  Time since last request: 67.225541 seconds.
+  path: Assets/Art/PCAnimations/CharacterAC.controller
+  artifactKey: Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/CharacterAC.controller using Guid(abda35b65c24dfe4ab672a0f3d0d9cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee26badc30664fe703d346e33cb5557') in 0.004445 seconds
+  Import took 0.018171 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 1.773700 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.557900 ms  DeleteObjects: 0.029400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 2.644500 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.439900 ms  DeleteObjects: 0.015900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.591953 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab
-  artifactKey: Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2PREFAB.prefab using Guid(d8b9f8e256d3f9c4e8236ffbcf9ac609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00120c7f0fc0c8104deacee2daad2154') in 0.003926 seconds
-  Import took 0.019999 seconds .
+  Time since last request: 625.474001 seconds.
+  path: Assets/Art/PlayerCharacter/cubeguyv3.fbx
+  artifactKey: Guid(f62df0c8c2234ec4d827aeced7203cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PlayerCharacter/cubeguyv3.fbx using Guid(f62df0c8c2234ec4d827aeced7203cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7645e4263e79a65694a3107baa5ae8c') in 0.282818 seconds
+  Import took 0.315842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.808784 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.fbx
-  artifactKey: Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.fbx using Guid(5e36e617addf61142aaedc6ecb9ddd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bd8560740c2b4f757cb27a3aaa6538') in 0.090542 seconds
-  Import took 0.109833 seconds .
+  Time since last request: 60.430257 seconds.
+  path: Assets/Art/PCAnimations/PCController
+  artifactKey: Guid(058f8b3fddd45c847898795d00239c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/PCController using Guid(058f8b3fddd45c847898795d00239c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c4978f24473f6bd92c2e2c31282c03') in 0.002102 seconds
+  Import took 0.005708 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.092967 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.prefab
-  artifactKey: Guid(074f45edca1f0cc498767516f060a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.prefab using Guid(074f45edca1f0cc498767516f060a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dd73765b9116bd94d86ad9330609b3') in 0.020287 seconds
-  Import took 0.025807 seconds .
+  Time since last request: 23.572612 seconds.
+  path: Assets/Art/PCAnimations/PCAnimationController.controller
+  artifactKey: Guid(f8ecaf9930fdbd74bb995b8edc98145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/PCAnimationController.controller using Guid(f8ecaf9930fdbd74bb995b8edc98145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc6d99ecc1f01f29d680e5e1226b4b2') in 0.004038 seconds
+  Import took 0.006764 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000765 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 1.938600 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.670200 ms  DeleteObjects: 0.018000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.8 MB.
+System memory in use after: 71.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.786000 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.562400 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.575500 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.373800 ms  DeleteObjects: 0.016500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008695 seconds.
-  path: Assets/Art/PlayerCharacter/cubeguyv2.prefab
-  artifactKey: Guid(074f45edca1f0cc498767516f060a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/cubeguyv2.prefab using Guid(074f45edca1f0cc498767516f060a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dd73765b9116bd94d86ad9330609b3') in 0.016726 seconds
-  Import took 0.019771 seconds .
+  Time since last request: 1556.863707 seconds.
+  path: Assets/Art/PCAnimations/idle.fbx
+  artifactKey: Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/idle.fbx using Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd5b744bc4fdb4131b1507407aef077') in 0.198224 seconds
+  Import took 0.207939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.798057 seconds.
-  path: Assets/Art/PlayerCharacter/FACE.mat
-  artifactKey: Guid(1d265a4074458134f90a44d8e06b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/PlayerCharacter/FACE.mat using Guid(1d265a4074458134f90a44d8e06b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a67a3fc057ff169f4c1536f1527544') in 0.009596 seconds
-  Import took 0.013171 seconds .
+  Time since last request: 16.663153 seconds.
+  path: Assets/Art/PCAnimations/idle.fbx
+  artifactKey: Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/idle.fbx using Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d90fe06765f1cc3e9e58d4d47031cec') in 0.107973 seconds
+  Import took 0.126868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.531381 seconds.
+  path: Assets/Art/PCAnimations/walk.fbx
+  artifactKey: Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/walk.fbx using Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7001f2d8bb46f7f4726c58c51039f146') in 0.102549 seconds
+  Import took 0.122303 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 2.242600 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.020900 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.027864 seconds.
+  path: Assets/Art/PCAnimations/idle.fbx
+  artifactKey: Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/idle.fbx using Guid(64da3d3a72bc6f8418af5fce5aabe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d91da650e721980de4248543856008') in 0.358646 seconds
+  Import took 0.369524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3151.597980 seconds.
+  path: Assets/Art/PCAnimations/run.fbx
+  artifactKey: Guid(c05ac98b818f00741bd37355cffff72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/run.fbx using Guid(c05ac98b818f00741bd37355cffff72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d145e1d4fbf73a8f2b92d48d984e76') in 0.104664 seconds
+  Import took 0.131492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.348956 seconds.
+  path: Assets/Art/PCAnimations/run.fbx
+  artifactKey: Guid(c05ac98b818f00741bd37355cffff72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/run.fbx using Guid(c05ac98b818f00741bd37355cffff72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18c7836d2d27ba3a14a732ce9ab75bd') in 0.078816 seconds
+  Import took 0.100329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 1.914800 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.694500 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.326226 seconds.
+  path: Assets/Art/PCAnimations/walk.fbx
+  artifactKey: Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/walk.fbx using Guid(47648c86e06617040857590a164d9e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeb8568af0317bb09654dfb1a72b007') in 0.193873 seconds
+  Import took 0.221143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 1.564700 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.344100 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.838737 seconds.
+  path: Assets/Art/PlayerCharacter/cubeguyv3.prefab
+  artifactKey: Guid(562aa4839f404bb47bc704a634b1d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PlayerCharacter/cubeguyv3.prefab using Guid(562aa4839f404bb47bc704a634b1d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PCAnimationController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PCAnimationController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a1b1d02221c4af826fd1f77ca73aa9bd') in 0.178670 seconds
+  Import took 0.210608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.555035 seconds.
+  path: Assets/Art/PlayerCharacter/cubeguyv3PREFAB.prefab
+  artifactKey: Guid(562aa4839f404bb47bc704a634b1d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PlayerCharacter/cubeguyv3PREFAB.prefab using Guid(562aa4839f404bb47bc704a634b1d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PCAnimationController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (PCAnimationController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'ce8d35214b7ad0f9a5a8673eba2a688f') in 0.023340 seconds
+  Import took 0.027139 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.586900 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.376800 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 838.376010 seconds.
+  path: Assets/Art/PCAnimations/grabwalk.fbx
+  artifactKey: Guid(58790a2bed1a3e74eb666daeab40f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/grabwalk.fbx using Guid(58790a2bed1a3e74eb666daeab40f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34f80143573d897da9cf6ec0954747') in 0.202525 seconds
+  Import took 0.206211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.489953 seconds.
+  path: Assets/Art/PCAnimations/grabwalk.fbx
+  artifactKey: Guid(58790a2bed1a3e74eb666daeab40f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/grabwalk.fbx using Guid(58790a2bed1a3e74eb666daeab40f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054a4db144d2aeea87107f76a436b15d') in 0.079587 seconds
+  Import took 0.101523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 2.728700 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.510400 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 385.818352 seconds.
+  path: Assets/Art/PCAnimations/pullwalk.fbx
+  artifactKey: Guid(24caf1054cee2aa48a7bddec2b52ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/pullwalk.fbx using Guid(24caf1054cee2aa48a7bddec2b52ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323d0cd369e170aa0e459a68807b8d4c') in 0.171865 seconds
+  Import took 0.186587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.245666 seconds.
+  path: Assets/Art/PCAnimations/pullwalk.fbx
+  artifactKey: Guid(24caf1054cee2aa48a7bddec2b52ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/pullwalk.fbx using Guid(24caf1054cee2aa48a7bddec2b52ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d386ef7ffe381fac848168e5abed3fb') in 0.082418 seconds
+  Import took 0.101555 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 2.801100 ms (FindLiveObjects: 1.005400 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.712100 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.216888 seconds.
+  path: Assets/Art/PCAnimations/grabidle.fbx
+  artifactKey: Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/grabidle.fbx using Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc5838fd0895dc2a111363f0d87d0bd') in 0.178161 seconds
+  Import took 0.182476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.050865 seconds.
+  path: Assets/Art/PCAnimations/grabidle.fbx
+  artifactKey: Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/grabidle.fbx using Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6803bbea88098fffa22d85559470a62') in 0.070581 seconds
+  Import took 0.074356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.086593 seconds.
+  path: Assets/Art/PCAnimations/grabidle.fbx
+  artifactKey: Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/grabidle.fbx using Guid(b0c2de86838a07a48813b71fe017c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d24ab5f30ac024d3d79b817841a76c') in 0.074742 seconds
+  Import took 0.078772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 6.279300 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.044200 ms MarkObjects: 6.068900 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.335533 seconds.
+  path: Assets/Art/PCAnimations/New Animation.anim
+  artifactKey: Guid(66bec901e016c6d4abb8a301ab82a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/New Animation.anim using Guid(66bec901e016c6d4abb8a301ab82a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7a700fb56676e02467050154175bfb') in 0.018531 seconds
+  Import took 0.037961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.714426 seconds.
+  path: Assets/Art/PCAnimations/hide.fbx
+  artifactKey: Guid(41d113083cc69344bb02711b03ec9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/hide.fbx using Guid(41d113083cc69344bb02711b03ec9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f027672dfc9e59128ff2932ac333a19b') in 0.165872 seconds
+  Import took 0.170445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.537472 seconds.
+  path: Assets/Art/PCAnimations/hide.fbx
+  artifactKey: Guid(41d113083cc69344bb02711b03ec9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PCAnimations/hide.fbx using Guid(41d113083cc69344bb02711b03ec9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7943558ecaa0e80e87bb848e76399a') in 0.073949 seconds
+  Import took 0.078937 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 3.154000 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.896700 ms  DeleteObjects: 0.020600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2352.365451 seconds.
+  path: Assets/Art/logo.png
+  artifactKey: Guid(cfd45201a2017134593bac8a7f7d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/logo.png using Guid(cfd45201a2017134593bac8a7f7d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03434752d51948024d34ec487f91b83') in 0.132600 seconds
+  Import took 0.153811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.410945 seconds.
+  path: Assets/Art/logo 1.png
+  artifactKey: Guid(4b6bd1a66c5accd4885624a4af45df67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/logo 1.png using Guid(4b6bd1a66c5accd4885624a4af45df67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae9a264d276e513862855af12e447b9') in 0.010570 seconds
+  Import took 0.014164 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
