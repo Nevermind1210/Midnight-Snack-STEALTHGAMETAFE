@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private NavMeshAgent player;       // the player agent
     [SerializeField] private Transform pointer;         // interaction raycast is shot from this
     [Header("Interaction")]
+    [SerializeField] private TextMeshProUGUI tipsText;  // hints on what the player should do next
     [SerializeField] private float reach;               // how far player can reach to interact
     public bool hasFood;                                // whether player has already gotten food from fridge
     [Header("Animation")]
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
                         fridgeAnimation.Play("Open");
                         FridgeSound();
                         hasFood = true;
+                        tipsText.text = "Get back to your room!";
                     } 
                 }
                 else
