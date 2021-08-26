@@ -20,6 +20,11 @@ namespace MotherIntelligence.Editor
 
         public void Update()
         {
+            Chase();
+        }
+
+        public void Chase()
+        {
             agent.speed = moveSpeed;
             itself.LookAt(Hero);
 
@@ -27,7 +32,7 @@ namespace MotherIntelligence.Editor
             {
                 if (!agent.hasPath && agent.remainingDistance >= fieldOfVision.radius)
                 {
-                  
+
                 }
                 else
                 {

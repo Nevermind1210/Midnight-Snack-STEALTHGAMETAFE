@@ -3,16 +3,21 @@ using UnityEngine.AI;
 
 public class MotherWandering : MonoBehaviour
 {
+    [SerializeField] private MotherVision vision;
+    [Header("Wander")]
     [SerializeField] float wanderRadius;
     [SerializeField] float wanderTimer;
     private Transform target;
-    private NavMeshAgent agent;
+    private NavMeshAgent mother;
     private float timer;
     private Animator _anim;
-    
+    [Header("Chase")]
+    [SerializeField] private Transform player;
+    private float moveSpeed = 3f;
+
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        mother = GetComponent<NavMeshAgent>();
         _anim = GetComponent<Animator>();
         target = transform;
         timer = wanderTimer;
@@ -20,7 +25,14 @@ public class MotherWandering : MonoBehaviour
 
     void Update()
     {
-        Wander();
+        if (vision.canSeePlayer)
+        {
+            Chase();
+        }
+        else if (!vision.canSeePlayer)
+        {
+            Wander();
+        }
     }
 
     private void Wander()
@@ -32,10 +44,10 @@ public class MotherWandering : MonoBehaviour
         if (timer >= wanderTimer)
         {
             // if agent's path is finished and the remaining distance to the destination is less than 0.1
-            if (!agent.pathPending && agent.remainingDistance < 0.1f)
+            if (!mother.pathPending && mother.remainingDistance < 0.1f)
             {
                 Vector3 newPos = RandomNavSphere(target.position, wanderRadius, -1);    // new position is generated
-                agent.SetDestination(newPos);   // agent moves to next destination            
+                mother.SetDestination(newPos);   // agent moves to next destination            
                 timer = 0;  // timer is reset
             }
             _anim.SetTrigger("Walking");
@@ -58,5 +70,29 @@ public class MotherWandering : MonoBehaviour
         NavMesh.SamplePosition(randDirection, out navHit, dist, layermask); // converts the random position into a position on the navmesh
 
         return navHit.position; // returns the random position as a position on the navmesh
+    }
+
+    public void Chase()
+    {
+        mother.speed = moveSpeed;
+
+        // mother looks at player
+        transform.LookAt(player);
+
+        mother.SetDestination(player.position);
+
+        // if agent has no current path and remaining distance is less than or equal to the radius of the FOV and mother can see player
+        if (!mother.pathPending && mother.remainingDistance <= vision.radius && vision.canSeePlayer)
+        {
+            // if agent has no path and remaining distance is greater than or equal to the FOV
+            if (!mother.hasPath && mother.remainingDistance >= vision.radius)
+            {
+                mother.SetDestination(player.position);
+            }
+            else
+            {
+                GetComponent<MotherWandering>().enabled = true;
+            }
+        }
     }
 }
