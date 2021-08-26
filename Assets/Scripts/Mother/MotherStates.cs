@@ -3,7 +3,9 @@ using UnityEngine.AI;
 
 public class MotherStates : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private MotherVision vision;
+    [SerializeField] private Audio audioScript;
     [Header("Wander")]
     [SerializeField] float wanderRadius;
     [SerializeField] float wanderTimer;
@@ -14,6 +16,9 @@ public class MotherStates : MonoBehaviour
     [Header("Chase")]
     [SerializeField] private Transform player;
     private float moveSpeed = 3f;
+    public bool isWandering;
+    [Header("Investigate")]
+    [SerializeField] private bool checkedSound;
 
     void Start()
     {
@@ -32,12 +37,15 @@ public class MotherStates : MonoBehaviour
         else if (!vision.canSeePlayer)
         {
             Wander();
+            Investigate();
         }
     }
 
     // mother wanders around
     private void Wander()
     {
+        isWandering = true;
+
         // timer increases gradually
         timer += Time.deltaTime;
 
@@ -76,6 +84,8 @@ public class MotherStates : MonoBehaviour
     // mother chases player
     public void Chase()
     {
+        isWandering = false;
+
         // mother's speed changes
         mother.speed = moveSpeed;
 
@@ -84,5 +94,15 @@ public class MotherStates : MonoBehaviour
 
         // mother travels towards player
         mother.SetDestination(player.position);
+    }
+
+    private void Investigate()
+    {
+        // if any sound effects are playing
+        if (audioScript.sfx.isPlaying && !checkedSound)
+        {
+            mother.SetDestination(player.position);
+            checkedSound = true;
+        }
     }
 }
