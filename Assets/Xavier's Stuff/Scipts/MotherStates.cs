@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MotherWandering : MonoBehaviour
+public class MotherStates : MonoBehaviour
 {
     [SerializeField] private MotherVision vision;
     [Header("Wander")]
@@ -35,6 +35,7 @@ public class MotherWandering : MonoBehaviour
         }
     }
 
+    // mother wanders around
     private void Wander()
     {
         // timer increases gradually
@@ -72,27 +73,16 @@ public class MotherWandering : MonoBehaviour
         return navHit.position; // returns the random position as a position on the navmesh
     }
 
+    // mother chases player
     public void Chase()
     {
+        // mother's speed changes
         mother.speed = moveSpeed;
 
         // mother looks at player
         transform.LookAt(player);
 
+        // mother travels towards player
         mother.SetDestination(player.position);
-
-        // if agent has no current path and remaining distance is less than or equal to the radius of the FOV and mother can see player
-        if (!mother.pathPending && mother.remainingDistance <= vision.radius && vision.canSeePlayer)
-        {
-            // if agent has no path and remaining distance is greater than or equal to the FOV
-            if (!mother.hasPath && mother.remainingDistance >= vision.radius)
-            {
-                mother.SetDestination(player.position);
-            }
-            else
-            {
-                GetComponent<MotherWandering>().enabled = true;
-            }
-        }
     }
 }

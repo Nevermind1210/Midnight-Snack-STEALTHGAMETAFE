@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private NavMeshAgent player;       // the player agent
     [SerializeField] private Transform pointer;         // interaction raycast is shot from this
-    [SerializeField] private float stoppingDistance;    // how far from point of click the player can stop
     [Header("Interaction")]
     [SerializeField] private float reach;               // how far player can reach to interact
     public bool hasFood;                                // whether player has already gotten food from fridge
@@ -86,11 +85,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void FridgeSound()
-    {
-        audioScript.sfx.PlayOneShot(audioScript.fridgeSound);
-    }
-
     private void PlayerAnimation()
     {
         if (player.remainingDistance > player.stoppingDistance)
@@ -101,5 +95,10 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimation.Play("Idle");
         }
+    }
+
+    private void FridgeSound()
+    {
+        audioScript.sfx.PlayOneShot(audioScript.fridgeSound);
     }
 }
