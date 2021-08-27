@@ -8,7 +8,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.collider.CompareTag("Mother"))
         {
-            sanity.LoseSanity(5);
+            sanity.LoseSanity(5f);
         }
     }
 
@@ -16,7 +16,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.collider.CompareTag("Mother"))
         {
-            sanity.LoseSanity(0.1f);
+            sanity.LoseSanity(1f);
         }
     }
 }
