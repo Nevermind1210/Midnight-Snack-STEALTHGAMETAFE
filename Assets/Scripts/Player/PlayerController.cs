@@ -73,7 +73,6 @@ public class PlayerController : MonoBehaviour
                     if (hit.collider.CompareTag("Fridge"))
                     {
                         // get food from the fridge
-                        playerAnimation.Play("Grab");
                         fridgeAnimation.Play("Open");
                         FridgeSound();
                         hasFood = true;

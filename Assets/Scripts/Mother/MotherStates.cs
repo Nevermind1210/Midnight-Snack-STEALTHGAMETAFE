@@ -19,6 +19,8 @@ public class MotherStates : MonoBehaviour
     public bool isWandering;
     [Header("Investigate")]
     [SerializeField] private bool checkedSound;
+    [Header("Animation")]
+    [SerializeField] private Animator motherAnimation;
 
     void Start()
     {
@@ -39,6 +41,8 @@ public class MotherStates : MonoBehaviour
             Wander();
             Investigate();
         }
+
+        MotherAnimation();
     }
 
     // mother wanders around
@@ -103,6 +107,18 @@ public class MotherStates : MonoBehaviour
         {
             mother.SetDestination(player.position);
             checkedSound = true;
+        }
+    }
+
+    private void MotherAnimation()
+    {
+        if (mother.remainingDistance > mother.stoppingDistance)
+        {
+            motherAnimation.Play("Walking");
+        }
+        else
+        {
+            motherAnimation.Play("Idle");
         }
     }
 }
