@@ -1,10 +1,10 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MotherIntelligence.Editor
+namespace Mother
 {
     [CustomEditor(typeof(MotherVision))]
-    public class MotherVisionEditor : UnityEditor.Editor
+    public class MotherVisionEditor : Editor
     {
         private void OnSceneGUI()
         {
